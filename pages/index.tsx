@@ -1,16 +1,11 @@
-import Head from 'next/head'
+import { Layout } from '../components/common'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
-    <div>
-      <Head>
-        <title>Hyper Heap</title>
-        <meta name="description" content="Some heap" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Layout>
       <h1 className={styles.title}>Welcome Hyper Heap</h1>
-    </div>
+    </Layout>
   )
 }
 
